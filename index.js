@@ -209,7 +209,7 @@ app.get("/*", (req, res) => {
             </span>
             </div>`;
         } else {
-          html += `<a class="file fa fa-file-o" href="/browse/${filepath}">${file}</a> `;
+          html += `<a class="file fa fa-file-o" target="_top" href="/browse/${filepath}">${file}</a> `;
         }
       });
     }
